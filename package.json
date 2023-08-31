@@ -1,0 +1,16 @@
+{
+  "name": "fancy-login-page",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "compile:css": "sass ./scss/main.scss ./scss/style.css -w",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Khontrol GH",
+  "license": "ISC",
+  "dependencies": {
+    "regenerator-runtime": "^0.13.11"
+  }
+}

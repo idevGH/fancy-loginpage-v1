@@ -1,0 +1,21 @@
+.text-col {
+  background-color: rgb(14, 117, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.2rem;
+  text-align: center;
+  padding: 0 0.3rem;
+  font-family: monospace;
+  color: #fff;
+
+  .caption {
+    font-weight: 700;
+    // color: rgb(20, 14, 14);
+    // color: hwb(214 0% 45%);
+  }
+  .text {
+    font-weight: 600;
+  }
+}
